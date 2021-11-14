@@ -8,6 +8,7 @@ body {
   --type-first: Helvetica, Arial, sans-serif;
   --type-secondt: "Spectral", Georgia;
   font-family: var(--type-first);
+  padding-top: 4rem;
 }
 
 h1,
@@ -37,6 +38,11 @@ input {
   display: block;
   font-size: 1rem;
   font-family: var(--type-first);
+  color: #333;
+}
+
+a {
+  text-decoration: none;
   color: #333;
 }
 
